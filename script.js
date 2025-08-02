@@ -23,23 +23,23 @@ const book = {
 // TODO: Name labels everything on left side
 // TODO: Everything on Right side
 
-const pet = {
+const pet1 = {
     "name": "Buddy",
     "species": "Dog",
     "age": 5
 };
 
-console.log(pet);
+console.log(pet1);
 
 // Values Buddy, Dog, 5
 
-const sprite = {
+const sprite1 = {
     "name": "Hero",
     "x": 100,
     "y": 200
 };
 
-console.log(sprite);
+console.log(sprite1);
 
 // TODO: Name of the sprite is Hero and x/y are the coordinates
 
@@ -53,3 +53,18 @@ const car = {
 // TODO: Fix the syntax error.
 // TODO: Explain what was wrong in a comment.
 console.log(car);
+
+const sprite = {
+    "name": "Hero",
+    "x": 100,
+    "y": 200
+};
+
+console.log(sprite.x);
+sprite.x = 150;
+console.log(sprite.x);
+
+sprite.y = 250;
+console.log(sprite.y);
+
+// TODO: x:100/y:200
