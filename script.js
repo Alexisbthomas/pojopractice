@@ -68,3 +68,50 @@ sprite.y = 250;
 console.log(sprite.y);
 
 // TODO: x:100/y:200
+
+const book1 = {
+    "title": "JavaScript for Beginners",
+    "author": "Jane Doe",
+    "pages": 250,
+};
+
+console.log(book1.pages);
+book1.pages=300;
+console.log(book1.pages);
+// 
+// TODO: Update pages to 300.
+// TODO: Print pages again to confirm update.
+
+const book2= {
+  "title":"Hooked on Phonics",
+  "author":"Public Broadcasting Service",
+  "pages":150,
+
+}
+console.log(book2.title);
+console.log(book2.author);
+book2.pages=200;
+console.log(book2);
+
+const pet3={
+    "name": "Billy",
+    "species": "Bully",
+    "age":"3"
+}
+console.log(pet3.species);
+pet3.age=4;
+console.log(pet3.name);
+console.log(pet3.age);
+
+const sprite2={
+    "name":"Custom",
+    "x":"150",
+    "y":"350",
+}
+
+console.log(sprite2.x);
+console.log(sprite2.y);
+sprite2.x=200;
+sprite2.y=300;
+console.log(sprite2.x);
+console.log(sprite2.y);
