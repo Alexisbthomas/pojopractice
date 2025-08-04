@@ -115,3 +115,43 @@ sprite2.x=200;
 sprite2.y=300;
 console.log(sprite2.x);
 console.log(sprite2.y);
+
+const player = {
+    "name": "Alex",
+    "score": 0,
+    "level": 1
+};
+player.score=10;
+player.level=2;
+console.log(player);
+// TODO: Increase score by 10.
+// TODO: Increase level by 1.
+// TODO: Print name, score, and level.
+
+const weather = {
+    "city": "Taipei",
+    "temperature": 30,
+    "isRaining": false
+};
+weather.temperature=35;
+weather.isRaining=true;
+console.log(weather);
+
+// TODO: Increase temperature by 5.
+// TODO: Change isRaining to true.
+// TODO: Print city, temperature, isRaining.
+const robot = {
+    "id": "R2D2",
+    "x": 0,
+    "y": 0,
+    "direction": "north"
+};
+robot.y=10;
+robot.x=5;
+robot.direction="East";
+console.log(robot);
+
+// TODO: Move y by +10.
+// TODO: Move x by +5.
+// TODO: Change direction to "east".
+// TODO: Print id, x, y, direction.
